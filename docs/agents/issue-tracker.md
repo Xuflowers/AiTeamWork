@@ -48,3 +48,5 @@ GitHub 的 issue 和 PR 共用一套编号，裸 `#42` 可能是两者之一：�
 - **前沿查询**：列出地图未关闭的子 issue（`gh issue list --state open`，限定到地图的子议题/任务列表），剔除有未关闭阻塞项（见「统计未关闭的阻塞项」，或正文里的 `Blocked by` 行）或有 assignee 的；按地图顺序取第一个。
 - **认领**：`gh issue edit <n> --add-assignee @me`，这是本会话的第一次写操作。
 - **解决**：`gh issue comment <n> --body "<answer>"`，再 `gh issue close <n>`，最后把上下文指针（摘要 + 链接）追加到地图的 Decisions-so-far。
+
+本文档只描述仓库约定，不涉及具体机器的 gh 安装路径、认证方式或网络配置。若 gh 不在 PATH 或需要代理，请自行在本机处理，不要写进仓库文档。
