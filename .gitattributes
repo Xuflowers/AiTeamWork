@@ -1,0 +1,14 @@
+# 统一换行符，避免 Windows / macOS 组员之间产生无意义的行尾差异
+* text=auto
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
